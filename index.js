@@ -59,3 +59,5 @@ if (require.main === module) {
 }
 
 exports = module.exports = app;
+
+app.listen(8080)
