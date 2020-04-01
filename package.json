@@ -4,13 +4,20 @@
   "description": "CCRP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "test": "tap tests/*.test.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "google-apis": "^1.0.0",
+    "googleapis": "^48.0.0"
+  },
+  "devDependencies": {
+    "supertest": "3.0.0",
+    "tape": "4.8.0",
+    "tape-promise": "2.0.1"
   }
 }
